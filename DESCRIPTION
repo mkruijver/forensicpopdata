@@ -5,11 +5,11 @@ Version: 1.0.1
 Authors@R: 
     person("Maarten", "Kruijver", , "maarten.kruijver@esr.cri.nz", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-6890-7632"))
-Description: Provides allele frequency data for Short Tandem Repeat (STR) human 
+Description: Provides allele frequency data for Short Tandem Repeat human 
              genetic markers commonly used in forensic genetics for human 
              identification and kinship analysis. Includes published population 
              frequency data from the US National Institute of Standards and 
-             Technology (NIST) and the UK government.
+             Technology and the UK government.
 License: GPL (>= 3) + file LICENCE
 Encoding: UTF-8
 LazyData: true
