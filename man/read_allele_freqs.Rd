@@ -28,7 +28,7 @@ Reads allele frequencies from a .csv file. The file should be in FSIgen format, 
 }
 \examples{
 # below we read an allele freqs file that comes with the package
-filename <- system.file("extdata","FBI_extended_Cauc_022024.csv",package = "simDNAmixtures")
+filename <- system.file("extdata","FBI_extended_Cauc_022024.csv",package = "forensicpopdata")
 freqs <- read_allele_freqs(filename)
 freqs # the output is a list with an attribute named \code{N} giving the sample size.
 }
