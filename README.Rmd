@@ -23,6 +23,10 @@ two data sets are included:
 * NIST 1036 Allele Frequency Data for 29 STR Loci (`NIST1036freqs`)
 * UK DNA-17 Allele Frequency Data for 16 STR Loci (`UKDNA17freqs`)
 
+In addition, it is possible to access the 
+[`STRidER`](https://strider.online/frequencies) database through the 
+`read_STRidER_xml` function.
+
 ## Installation
 
 The **forensicpopdata** package is not yet available from CRAN. 
@@ -32,4 +36,47 @@ You can install the **forensicpopdata** package using the [`pak`](https://pak.r-
 #| eval: false
 # install.packages("pak")
 pak::pak("mkruijver/forensicpopdata")
+```
+
+
+## Usage (data sets)
+
+The `data` function is used to load a data set.
+
+```{r}
+require(forensicpopdata)
+
+data(NIST1036freqs)
+```
+
+The data set is a named list for each population:
+```{r}
+names(NIST1036freqs)
+```
+
+For each population, a list of frequencies by locus name is available:
+
+```{r}
+NIST1036freqs$AfAm$TH01
+```
+
+
+## Usage (STRidER)
+
+The `read_STRidER_xml` function downloads the most recent `STRidER` database from 
+`https://strider.online/`.
+
+```{r}
+freqs <- read_STRidER_xml()
+```
+
+The data set is a named list for each population:
+```{r}
+names(freqs)
+```
+
+For each population, a list of frequencies by locus name is available:
+
+```{r}
+freqs$`Entire Database`$TH01
 ```
