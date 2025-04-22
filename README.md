@@ -1,0 +1,22 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+## Introduction
+
+The **forensicpopdata** package provides allele frequency data for human
+genetic markers (STRs) commonly used in forensic genetics and kinship
+analysis. Currently two data sets are included:
+
+- NIST 1036 Allele Frequency Data for 29 STR Loci (`NIST1036freqs`)
+- UK DNA-17 Allele Frequency Data for 16 STR Loci (`UKDNA17freqs`)
+
+## Installation
+
+The **forensicpopdata** package is not yet available from CRAN. You can
+install the **forensicpopdata** package using the
+[`pak`](https://pak.r-lib.org/) package in R:
+
+``` r
+# install.packages("pak")
+pak::pak("mkruijver/forensicpopdata")
+```
