@@ -1,6 +1,6 @@
 Package: forensicpopdata
 Type: Package
-Title: Allele frequency data for Human Genetic Markers
+Title: Allele Frequency Data for Human Genetic Markers
 Version: 1.0.0
 Authors@R: 
     person("Maarten", "Kruijver", , "maarten.kruijver@esr.cri.nz", role = c("aut", "cre"),
