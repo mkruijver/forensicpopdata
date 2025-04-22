@@ -44,12 +44,12 @@
 #' Hill, C. R., Duewer, D. L., Kline, M. C., et al. (2013).
 #' \emph{U.S. population data for 29 autosomal STR loci}.
 #' Forensic Sci. Int. Genet. 7:e82–e83.
-#' \url{https://doi.org/10.1016/j.fsigen.2012.12.004}
+#' \doi{10.1016/j.fsigen.2012.12.004}
 #'
 #' Steffen, C. R., Coble, M. D., Gettings, K. B., et al. (2017).
 #' \emph{Corrigendum to "U.S. Population Data for 29 Autosomal STR Loci" [Forensic Sci. Int. Genet. 7 (2013) e82–e83]}.
 #' Forensic Sci. Int. Genet. 31:e36–e40.
-#' \url{https://doi.org/10.1016/j.fsigen.2017.08.011}
+#' \doi{10.1016/j.fsigen.2017.08.011}
 #'
 #' NIST presentation explaining revisions (2017):
 #' \url{https://strbase.nist.gov/NIST_Resources/Population_Data/Vallone-Error-Management-July-25-2017.pdf}
