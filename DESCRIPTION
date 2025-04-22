@@ -7,10 +7,12 @@ Authors@R:
            comment = c(ORCID = "0000-0002-6890-7632"))
 Description: Provides allele frequency data for human genetic markers (STRs) 
              commonly used in forensic genetics and kinship analysis. 
-             Includes published population frequency data from official sources 
-             such as NIST and the FBI for commonly used marker sets 
+             Includes published population frequency data from 
+             US NIST and the UK government for commonly used marker sets 
              (e.g., GlobalFiler).
-License: GPL (>= 3)
+License: GPL (>= 3) + file LICENCE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.1
+Depends: 
+    R (>= 3.5)

@@ -1,0 +1,26 @@
+This files lists the copyright holders and licences (if known) of the
+data sets in the forensicpopdata package:
+
+NIST1036freqs
+-----------
+
+This data set is in the public domain (see https://www.nist.gov/oism/copyrights
+for further details). The raw data set was obtained from
+https://strbase.nist.gov/Information/NIST_Population_Data
+
+Please cite the following publication if you use this data set:
+
+Steffen, C. R., Coble, M. D., Gettings, K. B., et al. (2017),
+Corrigendum to "U.S. Population Data for 29 Autosomal STR Loci" Forensic Sci.
+Int. Genet. 7 (2013) e82–e83]. Forensic Sci. Int. Genet. 31:e36–e40.
+https://doi.org/10.1016/j.fsigen.2017.08.011
+
+
+UKDNA17freqs
+---------
+
+This data set is licensed under Open Government Licence version 3:
+https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+
+
+The raw data set was obtained from https://www.gov.uk/government/statistics/dna-population-data-to-support-the-implementation-of-national-dna-database-dna-17-profiling
