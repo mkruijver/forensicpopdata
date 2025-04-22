@@ -7,7 +7,7 @@ Authors@R:
            comment = c(ORCID = "0000-0002-6890-7632"))
 Description: Provides allele frequency data for Short Tandem Repeat (STR) human 
              genetic markers commonly used in forensic genetics for human 
-             identification nd kinship analysis. Includes published population 
+             identification and kinship analysis. Includes published population 
              frequency data from the US National Institute of Standards and 
              Technology (NIST) and the UK government.
 License: GPL (>= 3) + file LICENCE
