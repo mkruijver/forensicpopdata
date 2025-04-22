@@ -24,8 +24,10 @@ of the International Society for Forensic Genetics (ISFG) on quality control
  Forensic Sci. Int. Genet. 24, 97-102.
  \doi{10.1016/j.fsigen.2016.06.008}
 
- @examples
- #' \dontrun{
+ @importFrom xml2 read_xml xml_find_all xml_text xml_find_first xml_attr
+ @importFrom stats setNames
+
+ @examplesIf interactive()
  # Import STRidER database
  freqs <- read_STRidER_xml()
 
@@ -34,5 +36,4 @@ of the International Society for Forensic Genetics (ISFG) on quality control
 
  # Access frequencies at the TH01 locus for the NORWAY origin
  freqs$NORWAY$TH01
-}
 }

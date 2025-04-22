@@ -9,8 +9,7 @@
 #'  Forensic Sci. Int. Genet. 24, 97-102.
 #'  \doi{10.1016/j.fsigen.2016.06.008}
 #'
-#'  @examples
-#'  #' \dontrun{
+#'  @examplesIf interactive()
 #'  # Import STRidER database
 #'  freqs <- read_STRidER_xml()
 #'
@@ -19,7 +18,6 @@
 #'
 #'  # Access frequencies at the TH01 locus for the NORWAY origin
 #'  freqs$NORWAY$TH01
-#' }
 #' @export
 read_STRidER_xml <- function(xml_file = "https://strider.online/frequencies/xml") {
   doc <- xml2::read_xml(xml_file)
