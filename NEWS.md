@@ -1,3 +1,7 @@
+# forensicpopdate 1.0.3
+
+* Clarified licence to adhere to CRAN policies
+
 # forensicpopdate 1.0.2
 
 * Fixed text formatting issues and resubmitted to CRAN

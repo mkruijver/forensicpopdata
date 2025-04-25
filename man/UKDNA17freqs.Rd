@@ -10,7 +10,10 @@ A named list of length 4.
 Each element is itself a named list of 16 STR loci, with named numeric vectors of allele frequencies.
 }
 \source{
-Data to support the implementation of National DNA Database. \url{https://www.gov.uk/government/statistics/dna-population-data-to-support-the-implementation-of-national-dna-database-dna-17-profiling}
+Raw data on which the data set is based is available from
+        \url{https://www.gov.uk/government/statistics/dna-population-data-to-support-the-implementation-of-national-dna-database-dna-17-profiling}
+        under the Open Government licence
+        \url{https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/}
 }
 \usage{
 UKDNA17freqs

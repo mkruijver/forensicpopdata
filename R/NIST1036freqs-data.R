@@ -31,7 +31,8 @@
 #' }
 #' Each element is itself a named list of 29 STR loci, with named numeric vectors of allele frequencies.
 #'
-#' @source U.S. Population Dataset 1036 (NIST). \url{https://strbase.nist.gov}
+#' @source Raw data (public domain) on which the data set is based is listed as
+#'         U.S. Population Dataset 1036 (NIST) on \url{https://strbase.nist.gov}
 #'
 #' @examples
 #' # Access allele frequencies for D3S1358 in African American population

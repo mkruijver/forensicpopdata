@@ -15,7 +15,8 @@ A named list of length 4:
 Each element is itself a named list of 29 STR loci, with named numeric vectors of allele frequencies.
 }
 \source{
-U.S. Population Dataset 1036 (NIST). \url{https://strbase.nist.gov}
+Raw data (public domain) on which the data set is based is listed as
+        U.S. Population Dataset 1036 (NIST) on \url{https://strbase.nist.gov}
 }
 \usage{
 NIST1036freqs
