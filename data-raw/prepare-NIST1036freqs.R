@@ -38,7 +38,7 @@ x_by_pop <- split(x, x$Pop)
 
 locus_allele_count_by_pop <- list()
 for (i_pop in seq_along(x_by_pop)){
-  x_pop <- x_by_pop[[1]]
+  x_pop <- x_by_pop[[i_pop]]
   population_name <- names(x_by_pop)[i_pop]
 
   locus_allele_count_by_pop[[population_name]] <-
