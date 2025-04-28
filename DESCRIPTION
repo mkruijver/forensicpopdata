@@ -1,7 +1,7 @@
 Package: forensicpopdata
 Type: Package
 Title: Allele Frequency Data for Human Genetic Markers
-Version: 1.0.2
+Version: 1.0.3
 Authors@R: 
     person("Maarten", "Kruijver", , "maarten.kruijver@esr.cri.nz", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-6890-7632"))
