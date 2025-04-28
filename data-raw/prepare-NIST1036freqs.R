@@ -6,7 +6,8 @@ x <- readxl::read_excel("1036-Revised-Genotypes-PopStats-July-19-2017.xlsx", col
 x$Pop[x$Pop == "AA"] <- "AfAm"
 
 loci_idx <- seq(from = 3, to = length(x), by = 2)
-locus_names <- names(x)[loci_idx]
+locus_names_original <- names(x)[loci_idx]
+locus_names <- gsub("_", " ", locus_names_original)
 
 # function that takes genotype data for single pop and
 # returns df with population, locus, allele, count
@@ -14,9 +15,12 @@ x_pop_to_locus_allele_count <- function(x_pop, population_name){
 
   by_locus <- list()
 
-  for (locus_name in locus_names){
-    a <- x_pop[[locus_name]]
-    b <- x_pop[[match(locus_name, names(x_pop)) + 1]]
+  for (i_locus in seq_along(locus_names)){
+    locus_name <- locus_names[i_locus]
+    locus_name_original <- locus_names_original[i_locus]
+
+    a <- x_pop[[locus_name_original]]
+    b <- x_pop[[match(locus_name_original, names(x_pop)) + 1]]
 
     alleles <- as.character(as.numeric(c(a, b)))
     alleles_unique <- unique(alleles)
