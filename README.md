@@ -5,8 +5,10 @@
 
 The **forensicpopdata** package provides allele frequency data for human
 genetic markers (STRs) commonly used in forensic genetics and kinship
-analysis. Currently two data sets are included:
+analysis. Currently three data sets are included:
 
+- FBI 2015 FBI Population Data for the expanded CODIS core STR loci
+  (`FBI2015freqs`)
 - NIST 1036 Allele Frequency Data for 29 STR Loci (`NIST1036freqs`)
 - UK DNA-17 Allele Frequency Data for 16 STR Loci (`UKDNA17freqs`)
 
@@ -82,10 +84,10 @@ For each population, a list of frequencies by locus name is available:
 
 ``` r
 freqs$`Entire Database`$TH01
-#>         8.3          10           7         7.3           8        10.3 
-#> 3.58038e-04 2.72467e-02 2.26924e-01 3.58038e-05 1.13426e-01 3.58038e-05 
-#>         9.3          12           6          11           9           4 
-#> 2.01862e-01 1.43215e-04 1.93305e-01 6.44468e-04 2.35231e-01 3.58038e-05 
+#>         8.3          10         7.3           7        10.3           8 
+#> 3.58038e-04 2.72467e-02 3.58038e-05 2.26924e-01 3.58038e-05 1.13426e-01 
+#>          12         9.3          11           6           4           9 
+#> 1.43215e-04 2.01862e-01 6.44468e-04 1.93305e-01 3.58038e-05 2.35231e-01 
 #>           5        13.3 
 #> 7.16076e-04 3.58038e-05
 ```

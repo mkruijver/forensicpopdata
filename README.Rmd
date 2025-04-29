@@ -18,8 +18,9 @@ knitr::opts_chunk$set(
 
 The **forensicpopdata** package provides allele frequency data for human genetic 
 markers (STRs) commonly used in forensic genetics and kinship analysis. Currently 
-two data sets are included:
+three data sets are included:
 
+* FBI 2015 FBI Population Data for the expanded CODIS core STR loci (`FBI2015freqs`)
 * NIST 1036 Allele Frequency Data for 29 STR Loci (`NIST1036freqs`)
 * UK DNA-17 Allele Frequency Data for 16 STR Loci (`UKDNA17freqs`)
 
