@@ -1,6 +1,9 @@
+# forensicpopdate 1.0.4
+* Allele_counts_to_freqs now retains order of locus names
+
 # forensicpopdate 1.0.3
 
-* Fix NIST1036freqs dataset (all populations were equal to the first one)
+* Fix NIST1036freqs data set (all populations were equal to the first one)
 * Replace underscore with space in "Penta_C", Penta_D", "Penta_E" of NIST1036freqs
 
 # forensicpopdate 1.0.2

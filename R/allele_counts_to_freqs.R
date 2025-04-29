@@ -25,7 +25,7 @@ allele_counts_to_freqs <- function(x, remove_zeroes = TRUE) {
   freqs <- list()
   N <- numeric()
 
-  for (locus_name in names(x_by_locus)) {
+  for (locus_name in unique(x$locus)) {
     x_locus <- x_by_locus[[locus_name]]
 
     counts <- stats::setNames(x_locus$count, x_locus$allele)
