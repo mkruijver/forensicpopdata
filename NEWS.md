@@ -1,4 +1,5 @@
 # forensicpopdate 1.0.4
+
 * FBI2015freqs data set added
 * Allele_counts_to_freqs now retains order of locus names
 

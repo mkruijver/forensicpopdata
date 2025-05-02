@@ -34,7 +34,7 @@
 #'
 #' @references
 #' Moretti, T.R., et al. (2016)
-#' \emphj{Population data on the expanded CODIS core STR loci for eleven populations of significance for forensic DNA analyses in the United States}.
+#' \emph{Population data on the expanded CODIS core STR loci for eleven populations of significance for forensic DNA analyses in the United States}.
 #' Forensic Sci. Int. Genet. 25:p175–181.
 #' \doi{10.1016/j.fsigen.2016.07.022}
 #'
